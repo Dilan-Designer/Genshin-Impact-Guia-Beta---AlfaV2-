@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ejemplo para el video Dilan Garcia Segundo Informatica</title>
+    <style>
+        body {
+            font-family: Hanyi WenHei 85W;
+            background-image: url('https://images6.alphacoders.com/117/1173817.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            gap: 20px;
+        }
+
+        .oval {
+            width: 200px;
+            height: 150px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .oval img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .oval:hover {
+            transform: scale(1.1);
+        }
+
+        .oval a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .buttons-container {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .buttons-container button {
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .buttons-container button:hover {
+            background-color: #ffcc00;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Mondstadt -->
+        <div class="oval" onclick="window.location.href='Mondstadt.html';">
+            <img src="Images/mondstadt.jpg" alt="Mondstadt">
+            <h3>Mondstadt</h3>
+        </div>
+
+        <!-- Liyue -->
+        <div class="oval" onclick="window.location.href='Liyue.html';">
+            <img src="Images/Liyue_Emblem_Night.webp" alt="Liyue">
+            <h3>Liyue</h3>
+        </div>
+
+        <!-- Inazuma -->
+        <div class="oval" onclick="window.location.href='Inazuma.html';">
+            <img src="Images/inazuma.jpg" alt="Inazuma">
+            <h3>Inazuma</h3>
+        </div>
+
+        <!-- Sumeru -->
+        <div class="oval" onclick="window.location.href='Sumeru.html';">
+            <img src="Images/sumeru.jpg" alt="Sumeru">
+            <h3>Sumeru</h3>
+        </div>
+
+        <!-- Fontaine -->
+        <div class="oval" onclick="window.location.href='Fontaine.html';">
+            <img src="Images/fontaine.jpg" alt="Fontaine">
+            <h3>Fontaine</h3>
+        </div>
+
+        <!-- Natlan -->
+        <div class="oval" onclick="window.location.href='Natlan.html';">
+            <img src="Images/natlan.jpg" alt="Natlan">
+            <h3>Natlan</h3>
+        </div>
+    </div>
+
+    <div class="buttons-container">
+        <button onclick="window.location.href='index.html'">Ir a Página 1</button>
+        <button onclick="window.location.href='index 2.6.html'">Ir a Tienda</button>
+        <button onclick="window.location.href='https://genshin.hoyoverse.com/es'">Página Oficial</button>
+    </div>
+
+</body>
+</html>

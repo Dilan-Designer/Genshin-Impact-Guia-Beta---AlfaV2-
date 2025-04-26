@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact Guía</title>
+</head>
+<body>
+    <title>Genshin Impact </title>
+    <style>
+        body {
+            font-family: Hanyi WenHei 85W;
+            background-image: url('https://images3.alphacoders.com/131/1311019.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            font-size: 24px;
+        }
+        .characters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .character {
+            background: rgba(0, 0, 0, 0.6);
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            width: 200px;
+        }
+        button {
+            background: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background: #ffaa00;
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay muted loop id="background-video" playsinline>
+        <source src="Imagenes/Videos (beta)/videoplayback (1).mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+
+    <style>
+        #background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            pointer-events: none;
+            filter: brightness(0.7); /* Opcional: oscurece un poco para que el texto sea más legible */
+        }
+
+        /* Opcional: mejora de suavidad en pantallas retina o móviles */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+    </style>
+
+    <header>
+        <h1>Bienvenido a Teyvat</h1>
+    </header>
+    <audio controls autoplay>
+        <source src="Imagenes/Audio-Música/Twilight Serenity (Genshin Impact Main Theme Var.).mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <div class="characters">
+        <div class="character">
+            <h2>Lumine</h2>
+            <img src="thumb-1920-297897.png" width="100">
+            <p>Viajera de otro mundo.</p>
+        </div>
+        <div class="character">
+            <h2>Aether</h2>
+            <img src="5ae11657b3f1494663bb386875343a9e_4124256634080313161.png" width="100">
+            <p>El hermano perdido de Lumine.</p>
+        </div>
+    </div>
+    <button onclick="alert('¡Que la aventura comience!')">Explorar</button>
+
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TAlKhARUcoY?si=qmLxUKxpTZWotK0f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="buttons-container">
+        <button onclick="window.location.href='index1.5.html'">Ir a Página 1</button>
+        <button onclick="window.location.href='index 2.6.html'">Ir a Tienda</button>
+        <button onclick="window.location.href='https://genshin.hoyoverse.com/es'">Página Oficial</button>
+    </div>
+
+</body>
+</html>
