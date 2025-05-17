@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naciones de Teyvat</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('https://images6.alphacoders.com/117/1173817.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px;
+            font-size: 36px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .nations {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 50px;
+        }
+
+        .nation {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 20px;
+            transition: transform 0.3s, background 0.3s;
+            cursor: pointer;
+        }
+
+        .nation:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
+
+        .nation img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+        }
+
+        .nation h2 {
+            margin-top: 15px;
+            font-size: 24px;
+        }
+        
+        .buttons-container {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .buttons-container button {
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .buttons-container button:hover {
+            background-color: #ffcc00;
+            
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Explora las Naciones de Teyvat
+</header>
+
+<div class="nations">
+    <div class="nation" onclick="location.href='mondstadt.html'">
+        <img src="Images/Mondstadt Logo Off.jpg" alt="Mondstadt">
+        <h2>Mondstadt</h2>
+    </div>
+    <div class="nation" onclick="location.href='liyue.html'">
+        <img src="Images/Liyue Logo.webp" alt="Liyue">
+        <h2>Liyue</h2>
+    </div>
+    <div class="nation" onclick="location.href='inazuma.html'">
+        <img src="Images/Inazuma Logo.webp" alt="Inazuma">
+        <h2>Inazuma</h2>
+    </div>
+    <div class="nation" onclick="location.href='Sumeru Part I.html'">
+        <img src="Images/Sumeru Logo.webp" alt="Sumeru">
+        <h2>Sumeru</h2>
+    </div>
+    <div class="nation" onclick="location.href='fontaine.html'">
+        <img src="Images/Fontaine Logo.webp" alt="Fontaine">
+        <h2>Fontaine</h2>
+    </div>
+    <div class="nation" onclick="location.href='natlan.html'">
+        <img src="Images/Natlan Logo.webp" alt="Natlan">
+        <h2>Natlan</h2>
+    </div>
+    <div class="buttons-container">
+        <button onclick="window.location.href='index.html'">Ir a Página 1</button>
+        <button onclick="window.location.href='index 2.6.html'">Ir a Tienda</button>
+        <button onclick="window.location.href='https://genshin.hoyoverse.com/es'">Página Oficial</button>
+    </div>
+
+</div>
+
+</body>
+</html>
