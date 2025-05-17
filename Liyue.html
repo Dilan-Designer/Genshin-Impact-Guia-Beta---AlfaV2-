@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liyue - Genshin Impact</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-image: url('https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Liyue_Harbor.png/revision/latest?cb=20240428132749');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          color: white;
+          text-shadow: 2px 2px 4px #000;
+        }
+    
+        .botones-esquina {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 999;
+    }
+    
+    .botones-esquina a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #fff242;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+    
+    .botones-esquina a:hover {
+      background-color: #fff242;
+    }
+    
+        .contenido {
+          background-color: rgba(0, 0, 0, 0.6);
+          padding: 40px;
+          border-radius: 15px;
+          margin: 100px auto 30px auto;
+          width: 90%;
+          max-width: 800px;
+          text-align: center;
+        }
+    
+        .contenido img.logo {
+          width: 150px;
+          margin-bottom: 20px;
+        }
+    
+        h1 {
+          font-size: 3rem;
+          margin-bottom: 15px;
+        }
+    
+        p {
+          font-size: 1.2rem;
+          max-width: 700px;
+          margin: 0 auto;
+        }
+    
+        audio {
+          margin-top: 20px;
+        }
+    
+        details {
+          margin-top: 30px;
+          background-color: rgba(0, 0, 0, 0.5);
+          padding: 20px;
+          border-radius: 10px;
+        }
+    
+        summary {
+          font-size: 1.3rem;
+          cursor: pointer;
+          font-weight: bold;
+        }
+    
+        .galeria {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 15px;
+          margin-top: 15px;
+        }
+    
+        .galeria img {
+          width: 100%;
+          border-radius: 10px;
+          border: 2px solid #fff;
+        }
+      </style>
+    </head>
+    <body>
+    
+      <video autoplay muted loop id="background-video" playsinline>
+        <source src="Imagenes/Videos (beta)/Liyue.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+    
+    <style>
+        #background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            pointer-events: none;
+            filter: brightness(0.7); 
+        }
+    
+        
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+    </style>
+
+        <div class="botones-esquina">
+            <a href="https://genshin.hoyoverse.com" class="boton-esquina" target="_blank">Página Oficial</a>
+            <a href="index.html" class="boton-esquina" target="_blank">Ir a Página 1</a>
+            <a href="Inazuma.html" class="boton-esquina" target="_blank">Ir a Inazuma</a>
+          </div>
+          
+    </div>
+    
+      <div class="contenido">
+        <img class="logo" src="Images/Liyue Logo 2.webp" alt="Emblema de Liyue">
+        <h1>Liyue</h1>
+    
+        <p>
+          Liyue, la Ciudad o Nación de los Contratos, es la segunda de las siete naciones de Teyvat. Representa el elemento <strong>Geo</strong> y estába protegida por el Arconte Rex Lapiz o Morax. Una ciudad con un puerto próspero situado al este de Teyvat.
+          Liyue yace imponente entre faldas montañosas, bosques de piedra, bastas planicies y una costa llena de vida, que conforman una tierra llena de riquezas, con cambios de estación claramente definidos y llenos de color. ¿Cuántos obsequios del Arconte Geo yacerán enterrados entre sus montañas?
+        </p>
+        <audio controls autoplay loop>
+          <source src="Imagenes/Audio-Música/Genshin Impact OST. Chill & Relaxing Music. Liyue Theme Songs - 24 Hours at Guili Plains - Liyue..mp3" type="audio/mpeg">
+          Tu navegador no soporta audio HTML5.
+        </audio>
+    
+        <details>
+            <summary>Más detalles</summary>
+            <div class="Ciudad">
+                <h1>La Ciudad De Liyue</h1>
+      
+            <div style="margin-top: 20px; text-align: center;">
+              <p>
+             <strong>Liyue</strong> es una nación libre "gobernada" por Las Siete Estrellas de Liyue. La influencia de Rex Lapiz, el Arconte Geo,se basaba en proteger a Liyue en base de contratos o fuerza bruta en casos de emergencia.
+              </p>
+              <img src="Images/Liyue Paisaje.webp" alt="Venti" style="width: 300px; border-radius: 10px; margin: 15px auto; display: block;">
+          
+              <h2>La Camara de Jade</h2>
+              <p>
+                Uno de los sitios más emblemáticos de la nación es la <strong>Camara de Jade</strong> que se encuentra en lo alto de la ciudad, un lugar que se deberia de visitar y que será de impotancia para la Trama.
+              </p>
+              <img src="Images/Camara de Jade.webp" alt="Estatua de los Siete" style="width: 300px; border-radius: 10px; margin: 15px auto; display: block;">
+          
+              <h2>Funeraria "El Camino"</h2>
+              <p>
+                La Funeraria <strong>"El Camino"</strong> es una organización con sede en Liyue. Además de enterrar a los muertos, también realizan ritos funerarios.
+
+                La Funeraria El Camino tiene vínculos con los Fatui; según ellos... aparentemente no llevan a cabo turbias ofertas de trastienda como el asesinato. Sin embargo, su diálogo sugiere que la organización mantiene una relación cercana.
+              </p>
+              <img src="Images/Funeraria_El_Camino.webp" alt="Funeraria_El_Camino" style="width: 300px; border-radius: 10px; margin: 15px auto; display: block;">
+          
+              <h2>Restaurante Wanmin</h2>
+              <p>
+                Un restaurante famoso en el Peñasco Chihu. Algunos dicen que el objetivo de este restaurante es mantener a todo el mundo en la tierra bien alimentado, mientras que otros creen que se esfuerza por unificar toda la cocina regional del mundo. De cualquier manera, con sus platos únicos, el Restaurante Wanmin es seguramente un lugar que vale la pena visitar. Si tienes prisa, ¿por qué no tomas algo de comida para llevar?
+              </p>
+              <img src="Images/Restaurante Wanmin.webp" alt="Restaurante Wanmin" style="width: 300px; border-radius: 10px; margin: 15px auto; display: block;">
+             
+              <h2>Quiosco Xinyue </h2>
+              <p>
+                El Quiosco Xinyue es un famoso restaurante en el Puerto de Liyue, Liyue. Se encuentra frente a Joyas Mingxing, y se ingresa acercándose a la puerta junto a Yueshu. La parte superior del restaurante se encuentra frente al Banco del Reino del Norte y arriba de la Casa de Té Heyu, aunque no hay manera de ir entre ellos desde el interior del restaurante.
+
+                El Quiosco Xinyue es reconocido como el restaurante más auténtico de cocina del estilo Yue, al igual que el Pabellón Liuli con su estilo de cocina Li. Como resultado, los platos del Quiosco Xinyue son principalmente a base de mariscos, que es la especialidad de la cocina Yue. Francis menciona que el Camarón de cristal, el Cangrejo dorado y los Rollitos de luna llena entre las ofertas del menú del restaurante.
+                
+                Debido a su gran reputación, el Quiosco Xinyue es bastante caro para cenar y tiene una lista de espera de tres meses.
+
+              </p>
+              <img src="Images/Quiosco_Xinyue.webp" alt="Quiosco_Xinyue" style="width: 300px; border-radius: 10px; margin: 15px auto; display: block;">
+              
+              <div class="seccion">
+                <h2>La Posada Wangshu</h2>
+            
+              <p>
+                La <strong>Posada Wangshu</strong> es una subárea en el Pantano Dihua, Liyue. Se trata de una posada construida sobre un gran árbol en el camino hacia Mondstadt. Tal y como su nombre lo indica es una posada en donde podrás pasar unas vacaciones en es el lugar si estas de visita a Liyue, con unas vistas espectaculares.
+              <img src="Images/Posada Wangshu.webp" alt="Posada Wangshu" style="width: 300px; border-radius: 10px; margin: 15px auto; display: block;">
+            </div>
+    
+              <div class="seccion">
+                <h2>La Aldea Chingsté</h2>
+                <p>
+    
+                   La <strong>Aldea Chingsté</strong> ,es un pueblo situado en la Llanura Bishui, Liyue. Debido a la tranquilidad, muchas personas se alejaron en favor de otros lugares, dejando en su mayoría a personas mayores cuidando a sus nietos.
+                </p>
+                <img src="Images/Aldea_Chingtse.webp" alt="Aldea_Chingtse"  style="width: 300px; border-radius: 10px; margin: 15px auto; display: block;">
+              </div>
+          
+              <div class="seccion">
+                <h2>Puerto de Liyue</h2>
+                <p>
+                 El <strong>Puerto de Liyue</strong> es un lugar en el cual se logra diferir diferentes comercios entre las naciones de todo Teyvat, controlado por el Comercio de Asuntos Civiles de Liyue.
+                </p>
+                <img src="Images/Liyue.webp" alt="Puerto de Liyue" style="width: 300px; border-radius: 10px; margin: 15px auto; display: block;">
+              </div>
+            </div>
+            <div class="seccion">
+                <h2>Valle Chengyu y la Sima e El Rito de la Linterna= Extra: Lugares de Adeptus </h2>
+                <p>
+                Proximamente... 
+                </p>
+            </div>
+            <div class="seccion">
+                <h2>Personajes e ¿Historia?</h2>
+                <p>
+                Proximamente... 
+                </p>
+            </div>
+            </div>
+            <h2> Musica, Dominios, Jefes y artefactos</h2>
+            <p>
+                Proximamente...
+                
+            </p>
+    
+          </details>
+      </div>
+    
+    </body>
+    </html>
